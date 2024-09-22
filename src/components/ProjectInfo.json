@@ -1,0 +1,17 @@
+[
+    {
+        "title":"Personal Finance Tracker",
+        "description":"Manage your money effortlessly with our intuitive personal finance tracker app. Budget, track expenses, and achieve financial goals with ease.",
+        "color":"#FFB200"
+    },
+    {
+        "title":"Tours and Travels",
+        "description":"Explore the world with our comprehensive tours and travels app. Discover destinations, book experiences, and create unforgettable journeys.",
+        "color":"#405D72"
+    },
+    {
+        "title":"Study Sync",
+        "description":"Boost your academic performance with our all-in-one student productivity app. Organize tasks, set reminders, and stay focused on success.",
+        "color":"#E9C46A"
+    }
+]

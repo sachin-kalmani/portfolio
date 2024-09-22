@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Beige (#DDD0C8), dark grey (#323232) */
+
+*{
+  font-family: "Open Sans";
+  margin: 0;
+  padding: 0;
+  transition: 0.5s;
+  scrollbar-color:#ff8f00 #F7F9F2;
+}
+/* Beige (#DDD0C8), dark grey (#323232) */
+body{
+  height: 100vh;
+  background: #FEFFD2;
+  /* color: #ddd0c8;   */
+}
+.para{
+  font-family: "PT Sans";
+  font-weight: 350;
+}
+::selection{
+  background-color: #fff60080;
+     /* background-color: #ffffff50; */
+}
+.project{
+  transition: 0.5s;
+}
+.container .card{
+  position: relative;
+  width: 350px;
+  height: 300px;
+  background-color: #FEFFD2;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+.container .card:hover{
+  height: 400px;
+}
+.container .card:hover .imgBox{
+  top: -100px;
+  scale: 0.75;
+}
+
+.container .card:hover .content{
+    top:150px;
+    height: 250px;
+}
+
+/* .landing{
+  background: #ddd0c8;
+}
+.logo{
+  color: #323232;
+  font-size: 30px;
+}
+::selection{
+  color: #dc761d;
+}
+.nav_links{
+  list-style: none;
+  background-color: blanchedalmond;
+  margin-right: 20px;
+}
+
+.nav_links li{
+  display: inline-block;
+  margin-right: 45px;
+}
+
+.name{
+  color: #534439;
+}
+.name span{
+  color: #32323290;
+}
+.naming h2{
+  color:#323232;
+}
+.buttons{
+  color:#323232;
+}
+.hello{
+  color: #323232;
+} */
+/* fixed rounded-r-[25px] drop-shadow-xl top-2/4 -translate-y-[50%] bg-[#FFA62F] px-4 py-1 inline-block text-[#323232] */
+.sidebar{
+  position: fixed;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  top: 50%;
+  left: -10%;
+  transform: translateY(-50%);
+  background:rgba(255, 255, 255, 0.1);
+  border-top:rgba(255, 255, 255, 0.5);
+  padding:0.25rem 1rem;
+  display: inline-block;
+  color: #534439;
+  transition:left 0.7s linear;
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  z-index: 200;
+} 
+
+.visible{
+  left:0;
+}
+.hidden{
+  left: -10%;
+}

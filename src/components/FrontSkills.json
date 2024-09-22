@@ -1,0 +1,22 @@
+[
+    {
+        "skill":"HTML",
+        "level":"Advanced"
+    },
+    {
+        "skill":"CSS",
+        "level":"Advanced"
+    },
+    {
+        "skill":"JavaScript",
+        "level":"Advanced"
+    },
+    {
+        "skill":"React Js",
+        "level":"Advanced"
+    },
+    {
+        "skill":"TailWind",
+        "level":"Intermediate"
+    }
+]
