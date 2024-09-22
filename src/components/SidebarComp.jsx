@@ -55,7 +55,7 @@ const SidebarComp = ({navbarComponent}) => {
   }, [navbarHeight]);
   const [menu,setMenu]=useState("Home");
   const icons = {
-    'Home': faHome,
+    'Names': faHome,
     'About': faUser,
     'Projects': faLaptopCode,
     'Contact': faMessage
@@ -63,7 +63,7 @@ const SidebarComp = ({navbarComponent}) => {
   // const navData=['Home','About','Projects','Services','Contact'];
   return (
     <div className={`sidebar ${isVisible ? 'visible':'hidden'}`}>
-             <ul className='flex flex-col items-center'>
+             <ul className='sides flex flex-col items-center'>
               {
                 Object.entries(icons).map(([key,iconValue],index)=>(
                   <li key={index} className='py-5 text-[20px] hover:scale-125'><AnchorLink className='anchor-link' href={'#'+key} offset={key=='Home'?100:0} ><p onClick={()=>setMenu(key)}><FontAwesomeIcon icon={iconValue} /></p></AnchorLink>{menu===key?<></>:<></>}</li>

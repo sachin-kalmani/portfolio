@@ -13,7 +13,7 @@ function Name() {
       });
       
   return (
-    <div className=''>
+    <div className='name'>
     <h3 className=' text-[18px] text-[#323232] font-thin tracking-wider  text-center'>Hello, I'm</h3>
     <h1 className='name text-[100px] font-bold leading-[7rem] text-center text-[#534439] drop-shadow-md'>Sachin<br/><span className='text-[#323232]'>Kalmani</span></h1>
     <h2 className='text-[30px] font-semibold tracking-widest  text-center  text-[#32323290] drop-shadow-md'><span>{text}</span><span><Cursor/></span></h2>

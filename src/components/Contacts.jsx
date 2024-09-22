@@ -11,7 +11,7 @@ const Contacts = () => {
     
     <div id='Contact' className='py-10 bg-[#CCD5AE]'>
     <div className='py-10 flex justify-center tracking-wide items-center text-7xl font-semibold text-[#323232] drop-shadow-lg'>Contact</div>
-    <div className='py-10 flex justify-around items-start gap-[100px] '>
+    <div className='social py-10 flex justify-around items-start gap-[100px] '>
     <div className='px-10 text-4xl flex justify-start leading-normal flex-col tracking-wide items-start text-left font-bold text-[#323232]'>
       <h1 className='drop-shadow-lg mb-6'>Let's <br /> <span className='text-[#534439] text-5xl'>Connect.</span></h1>
       <div className='py-3 flex justify-center items-center text-center text-[20px] font-normal gap-[30px]'>
@@ -24,7 +24,7 @@ const Contacts = () => {
       </div>
     </div>
     <div className='px-10 flex justify-start leading-normal flex-col gap-[5px] tracking-wide items-start text-[#323232]'>
-      <h1 className='drop-shadow-lg mb-6 text-4xl text-left font-bold text-[#323232]'>Social</h1>
+      <h1 className='drop-shadow-lg mb-6 text-4xl text-center ml-5 font-bold text-[#323232]'>Social</h1>
     <div className='flex justify-center items-center text-center text-[35px] font-normal gap-[30px]'>
         <div><a href="https://www.instagram.com/sachin_kalmani/"><FontAwesomeIcon icon={faInstagram}/></a></div>
         <div><a href="https://github.com/sachin-kalmani"><FontAwesomeIcon icon={faGithub}/></a></div>
@@ -46,7 +46,7 @@ const Contacts = () => {
     </div>
       <div className="footer p-5 flex justify-center gap-[10px] items-center">
               <a href="http://" className='text-[20px] font-semibold text-[#323232] drop-shadow-md'>Sachin Kalmani</a><span className='text-[2rem] text-[#323232] drop-shadow-md'>/</span><span className='text-[#32323290] drop-shadow-md'><FontAwesomeIcon icon={faCopyright} /> Sachin Kalmani</span>
-              <div className='absolute left-32 text-[30px] font-0 text-[#32323290]'><AnchorLink className='anchor-link' offset={100} href='#Home'><FontAwesomeIcon icon={faArrowUp} /></AnchorLink></div>
+              <div className='arrow absolute left-32 text-[30px] font-0 text-[#32323290]'><AnchorLink className='anchor-link' offset={100} href='#Names'><FontAwesomeIcon icon={faArrowUp} /></AnchorLink></div>
       </div>
     </div>
   )

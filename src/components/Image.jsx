@@ -3,7 +3,7 @@ import MyImage from '../assets/sachin2.jpeg'
 
 function Image() {
   return (
-    <div className=''>
+    <div className='image'>
     <img className='h-[300px] rounded-full' src={MyImage} alt="Description" />
     </div>
   )
