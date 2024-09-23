@@ -15,8 +15,7 @@ const Contacts = () => {
     <div className='px-10 text-4xl flex justify-start leading-normal flex-col tracking-wide items-start text-left font-bold text-[#323232]'>
       <h1 className='drop-shadow-lg mb-6'>Let's <br /> <span className='text-[#534439] text-5xl'>Connect.</span></h1>
       <div className='py-3 flex justify-center items-center text-center text-[20px] font-normal gap-[30px]'>
-        <div className='text-[25px]'><FontAwesomeIcon icon={faEnvelope} /></div>
-        <div><a href={`mailto:${emailAddress}`}>{emailAddress}</a></div>
+        <div className='text-[18px]'><a href={`mailto:${emailAddress}`}><FontAwesomeIcon icon={faEnvelope} />{emailAddress}</a></div>
       </div>
       <div className='py-3 flex justify-center items-center text-center text-[20px] font-normal gap-[30px]'>
       <div className='text-[25px]'><FontAwesomeIcon icon={faWhatsapp} /></div>

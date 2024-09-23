@@ -18,7 +18,7 @@ const App = () => {
     <>
         <Navbar ref={NavbarRef}/>
        <SidebarComp navbarComponent={getNavbarElement}/>
-       <Sidebar/>
+       <Sidebar/> 
        <NameComp/>
        <About/>
        <ProjectComp/>
