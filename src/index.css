@@ -83,7 +83,7 @@ body{
 }
 @media(max-width:500px){
   .nameComp{
-    max-width: 100%;
+    padding: 150px 0;
     display: flex;
     justify-content: center;
     align-items: center;
