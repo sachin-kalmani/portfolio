@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faMessage} from '@fortawesome/free-regular-svg-icons';
 import {faHome,faListCheck,faLaptopCode,faUser} from '@fortawesome/free-solid-svg-icons';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import Navbar from './Navbar';
 
 const SidebarComp = ({navbarComponent}) => {
 
@@ -55,7 +54,7 @@ const SidebarComp = ({navbarComponent}) => {
   }, [navbarHeight]);
   const [menu,setMenu]=useState("Home");
   const icons = {
-    'Names': faHome,
+    'Home': faHome,
     'About': faUser,
     'Projects': faLaptopCode,
     'Contact': faMessage

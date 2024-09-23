@@ -5,6 +5,7 @@ import ProjectComp from './components/ProjectComp';
 import Contacts from './components/Contacts';
 import SidebarComp from './components/SidebarComp';
 import Navbar from './components/Navbar';
+import Sidebar from './components/Sidebar';
 
 const App = () => {
   const NavbarRef = useRef(null);
@@ -17,6 +18,7 @@ const App = () => {
     <>
         <Navbar ref={NavbarRef}/>
        <SidebarComp navbarComponent={getNavbarElement}/>
+       <Sidebar/>
        <NameComp/>
        <About/>
        <ProjectComp/>

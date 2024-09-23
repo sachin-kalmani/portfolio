@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div id='About' className='p-10 bg-[#E9FF97]'>
     <div className='aboutMe py-10 mt-10 flex justify-center tracking-wide items-center text-7xl font-semibold text-[#323232] drop-shadow-md'>About Me</div>
-    <div className='para hidden leading-[32px] text-[18px]  tracking-wider flex p-10 flex-col items-center text-[#000] text-center'> 
+    {/* <div className='para hidden leading-[32px] text-[18px]  tracking-wider flex p-10 flex-col items-center text-[#000] text-center'> 
     <p className='mt-5 drop-shadow-md'>Hello! I'm Sachin Kalmani, a recent graduate with a BSc in Computer Science, specializing in both backend<br/>   
      and frontend development. I bring a strong foundation in Java and Python for backend programming, <br/>
      coupled with proficiency in designing scalable databases and APIs using frameworks like Spring and<br/>
@@ -15,8 +15,8 @@ const About = () => {
          knowledge and passion for innovation to contribute effectively to software projects that push the <br/>
         boundaries of technology. I thrive in collaborative environments and look forward to working alongside<br/>
          talented individuals to create solutions that make a meaningful impact.</p>
-    </div>
-    <div className='mt-10 para2 flex justify-around items-start gap-10'>
+    </div> */}
+    <div className='my-16 para2 flex justify-around items-start gap-10'>
       <div className="skills basis-1/4">
         <h1 className='text-2xl font-bold mb-5 text-[#323232] drop-shadow-md'>Skills</h1>
         <h2 className='text-xl font-semibold text-[#323232] drop-shadow-md'>Technical Skills</h2>
