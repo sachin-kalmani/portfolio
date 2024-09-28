@@ -3,8 +3,8 @@ import React from 'react'
 import ProjectInfo from'./ProjectInfo.json'
 // import { data } from 'autoprefixer';
 import Image1 from '../assets/projects/FinTrack.jpeg'
-import Image2 from '../assets/projects/StudySync.jpeg'
-import Image3 from '../assets/projects/TravelBuddy.jpeg'
+import Image2 from '../assets/projects/TravelBuddy.jpeg'
+import Image3 from '../assets/projects/StudySync.jpeg'
 
 
 const ProjectComp = () => {
