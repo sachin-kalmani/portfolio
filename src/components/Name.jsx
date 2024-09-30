@@ -2,7 +2,7 @@ import React from 'react'
 import {useTypewriter,Cursor} from 'react-simple-typewriter';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSquareGithub,faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import SachinResume from '../assets/Sachin_Kalmani.pdf'
+import SachinResume from '../assets/Sachin_Kalmani_Resume.pdf'
 
 function Name() {
     const [text]= useTypewriter({
