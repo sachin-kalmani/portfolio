@@ -5,13 +5,13 @@
         "color":"#FFB200"
     },
     {
-        "title":"Tours and Travels",
-        "description":"Explore the world with our comprehensive tours and travels app. Discover destinations, book experiences, and create unforgettable journeys.",
+        "title":"Student Management System",
+        "description":"This Student Management System streamlines tasks like student registration, attendance, grading, and performance tracking for educational institutions. It centralizes student data and improves efficiency in managing academic processes.",
         "color":"#405D72"
     },
     {
-        "title":"Study Sync",
-        "description":"Boost your academic performance with our all-in-one student productivity app. Organize tasks, set reminders, and stay focused on success.",
+        "title":"2024_T20 World Cup Dashboard",
+        "description":"Developed an interactive and dynamic dashboard to track and display scores, and key insights for the 2024 T20 World Cup.",
         "color":"#E9C46A"
     }
 ]
