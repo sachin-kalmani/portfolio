@@ -29,8 +29,8 @@ const About = () => {
       </div>
       <div className="experience basis-1/4">
         <h1 className='text-2xl font-bold mb-5 text-[#323232] drop-shadow-md'>Experience</h1>
-        <h2 className='text-xl font-semibold text-[#323232] drop-shadow-sm'>Freelance Full Stack Developer</h2>
-        <p className='py-2 text-[#323232]'>Developed 2 websites which helped them grow their business.</p>
+        <h2 className='text-xl font-semibold text-[#323232] drop-shadow-sm'>Pravi Internship</h2>
+        <p className='py-2 text-[#323232]'>Full Stack Developer</p>
       </div>
       <div className="education basis-1/4">
         <h1 className='text-2xl font-bold mb-5 text-[#323232] drop-shadow-md'>Education</h1>
